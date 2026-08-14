@@ -1,0 +1,29 @@
+package com.krakedev;
+
+public class TestRestaurante {
+
+	public static void main(String[] args) {
+		
+		Restaurante rest1  = new Restaurante();
+		
+		rest1.nombre = "Las delicias de Charito";
+		rest1.direccion = "Calacali";
+		rest1.calificacion = 5;
+		
+		System.out.println("Nombre del restaurante: " + rest1.nombre);
+		System.out.println("Dirección del restaurante: "+ rest1.direccion);
+		System.out.println("Calaificación: " + rest1.calificacion);
+		
+		Restaurante rest2  = new Restaurante();
+		
+		rest2.nombre = "El leñador";
+		rest2.direccion = "San Antonio";
+		rest2.calificacion = 10;
+		
+		System.out.println("Nombre del restaurante: " + rest2.nombre);
+		System.out.println("Dirección del restaurante: "+ rest2.direccion);
+		System.out.println("Calaificación: " + rest2.calificacion);
+
+	}
+
+}
