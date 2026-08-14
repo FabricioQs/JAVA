@@ -1,0 +1,20 @@
+package com.krakedev;
+
+public class TestPlato {
+
+	public static void main(String[] args) {
+		
+		System.out.println("=========Plato A : Creado========");
+		
+		Plato platoA = new Plato();
+		
+		System.out.println("Nombre: "+ platoA.nombre);
+		System.out.println("Tipo de plato: "+ platoA.tipo);
+		System.out.println("Precio: "+ platoA.precio);
+		System.out.println("Disponible: "+ platoA.disponible);
+		
+		
+
+	}
+
+}
