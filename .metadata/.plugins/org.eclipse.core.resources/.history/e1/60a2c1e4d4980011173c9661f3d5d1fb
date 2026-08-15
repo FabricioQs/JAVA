@@ -20,14 +20,6 @@ public class TestRectangulo {
 		resultadoArea2 = r2.calcularArea();
 		System.out.println("Resultado rectangulo 2: " + resultadoArea2);
 		
-		Rectangulo r3= new Rectangulo();
-		r3.altura = 4;
-		r3.base = 2;
-		
-		double resultadoPerimetro;
-		resultadoPerimetro = r3.calcularPerimetro();
-		System.out.println("El perímetro del rectángulo: " + resultadoPerimetro);
-		
 	}
 
 }
